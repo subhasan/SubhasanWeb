@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Times New Roman, Helvetica;
+    font-weight: bold;
+
+}
+
+.menu1{
+  color: blue;
+  background-color: orange;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+}
+
+h1{
+  margin: 0px;
+  padding-right: 0px;
+
+}
+
+#top{
+  color: black;
+  text-align: center;
+
+  }
+
+@media (min-width:  992px)
+{
+  #section1{
+    width:  32%;
+    position: relative;
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    float: left;
+
+  }
+    #section2{
+    width:  32%;
+    position: relative;
+    background-color: darkgrey;
+    padding: 2%;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-right: 0.5%;
+    margin-left: 1%;
+    float: left;
+
+  }
+    #section3{
+    width:  32%;
+    position: relative;;
+    background-color: darkgrey;
+    padding: 2%;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    float: left;
+
+  }
+
+}
+
+@media (min-width:  768px) and (max-width: 991px)
+{
+  #section1{
+    width:  48.5%;
+    position: relative;
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    float: left;
+
+  }
+    #section2{
+    width:  48.5%;
+    position: relative;;
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    float: left;
+
+  }
+    #section3{
+    width:  98%;
+    position: relative;;
+    background-color: darkgrey;
+    border: 2px solid black;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 2%;
+    float: left;
+
+  }
+
+}
+
+@media (max-width: 767px)
+{
+  #section1{
+    width:  100%;
+    float: left;
+    position: relative;
+    background-color: darkgrey;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 1%;
+  }
+    #section2{
+    width:  100%;
+    position: relative;
+    float: left;
+    background-color: darkgrey;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 1%;
+  }
+    #section3{
+    width:  100%;
+    float: left;
+    position: relative;
+    background-color: darkgrey;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 1%;
+  
+  }
+
+} 
